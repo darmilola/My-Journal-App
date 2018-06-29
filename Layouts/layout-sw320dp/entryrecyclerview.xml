@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/entrylayoutheight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/innerentrylayoutheight">
+
+        <Button
+            android:id="@+id/dummybuttondesign"
+            android:layout_width="@dimen/dummybuttonwidth"
+            android:layout_height="match_parent"
+            android:background="@color/HeaderColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/entrydescription"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/journalentrytitletextviewheight"
+              android:layout_marginLeft="@dimen/entrylayoutmarginleft"
+
+              android:ellipsize="end"
+              android:maxLines="1"
+              android:gravity="top"
+              android:text="this is going to give entry a key  this is going to give entry a key"
+              android:textColor="@color/textcolor"
+              android:textSize="@dimen/journalEntrytitlesize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03/23/2005"
+            android:textSize="@dimen/titletextsize"
+            android:id="@+id/datetextview"
+            android:layout_marginTop="@dimen/datetextviewmargin"
+            android:layout_marginLeft="@dimen/datetextviewmargin"
+            android:gravity="left"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dividerHeight"
+        android:src="@drawable/line"
+        android:layout_marginLeft="@dimen/dividermargin"
+        android:layout_marginRight="@dimen/dividermargin"
+        />
+
+
+</LinearLayout>

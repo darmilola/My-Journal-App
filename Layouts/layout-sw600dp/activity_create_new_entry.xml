@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/createentrybackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/headerHeight"
+        android:background="@color/HeaderColor"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelentrycreation"
+            android:layout_marginLeft="@dimen/newentryimagemarginleft"
+            android:layout_marginRight="@dimen/newentryimagemarginright"
+            android:layout_marginTop="@dimen/newentryimagemargintop"
+            android:layout_weight="1"
+            android:src="@drawable/cancel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/newentrytextmargintop"
+            android:layout_weight="0"
+            android:id="@+id/createnotetitle"
+            android:text="@string/editentry"
+            android:textColor="@color/textcolorwhite"
+            android:textSize="@dimen/titletextsize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveentry"
+            android:layout_marginLeft="@dimen/newentryimagemargintleftick"
+            android:layout_marginTop="@dimen/newentryimagemargintoptick"
+            android:layout_weight="1"
+            android:src="@drawable/ic_action_tick" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Journal Title"
+        android:textSize="@dimen/titletextsize"
+        android:textColor="@color/textcolor"
+        android:layout_marginLeft="@dimen/createjournaltitlemargin"
+        android:layout_marginTop="@dimen/createjournaltitlemargin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createnotetitleedittext"
+        android:layout_marginLeft="@dimen/edittextmargin"
+        android:layout_marginRight="@dimen/edittextmargin"
+        android:layout_marginTop="@dimen/edittextmargin"
+        android:hint="@string/journaltitlehint"
+        android:textColorHint="@color/hintcolor"
+        android:maxLines="2"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/titletextsize"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Journal Body"
+        android:textSize="@dimen/titletextsize"
+        android:textColor="@color/textcolor"
+        android:layout_marginLeft="@dimen/createjournaltitlemargin"
+        android:layout_marginTop="@dimen/createjournaltitlemargin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createnoteedittext"
+        android:layout_marginLeft="@dimen/edittextmargin"
+        android:layout_marginRight="@dimen/edittextmargin"
+        android:layout_marginTop="@dimen/edittextmargin"
+        android:hint="@string/typeentryedittexthint"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/titletextsize"/>
+
+</LinearLayout>

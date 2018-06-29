@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/readingpageparentlayout"
+    android:background="@color/createentrybackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/bottombarheight"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/readingpagebottomm"
+        android:background="@color/HeaderColor">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/editentry"
+            android:layout_marginTop="@dimen/readingpagebuttombarmenumargin"
+            android:src="@drawable/editentryimage"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/deleteentry"
+            android:layout_marginTop="@dimen/readingpagebuttombarmenumargin"
+            android:src="@drawable/deleteentryimage"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/headerHeight"
+        android:background="@color/HeaderColor"
+        android:id="@+id/readingpageheader"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/readingpagetitle"
+            android:text="@string/readingpagetitle"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/titletextsize"
+
+            android:layout_marginTop="@dimen/readingpagetitlemargintop"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/readingpageheader"
+        android:layout_above="@+id/readingpagebottomm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/titletextsize"
+                android:text="Title of entry"
+                android:id="@+id/readinpageentrytitle"
+                android:textColor="@color/textcolor"
+                android:layout_marginLeft="@dimen/readingtextmargin"
+                android:layout_marginRight="@dimen/readingtextmargin"
+                android:layout_marginTop="@dimen/readingtextmargin"/>
+
+            <TextView
+                android:id="@+id/readingtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/readingtextmargin"
+                android:text="ghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrg
+ghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgvghdwgjehdkjwkdshdjksnmfllrg
+ghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrg
+ghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrgghdwgjehdkjwkdshdjksnmfllrg
+"
+                android:textColor="@color/textcolor"
+
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="@dimen/titletextsize" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

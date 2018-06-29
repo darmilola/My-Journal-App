@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Journal</string>
+    <string name="title">My Journal</string>
+    <string name="Logout">Log Out</string>
+    <string name="Deleteallnote">Delete all entries</string>
+    <string name="editentry">Edit Entry</string>
+    <string name="typeentryedittexthint">Type New Entry</string>
+    <string name="readingpagetitle">Reading</string>
+    <string name="Googlebuttontext">Continue with Google</string>
+    <string name="loginpagetitle">My Journal</string>
+    <string name="journaltitlehint">Title Of Journal</string>
+</resources>

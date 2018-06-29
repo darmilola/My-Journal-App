@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerHeight">90dp</dimen>
+    <dimen name="titletextsize">50sp</dimen>
+    <dimen name="titlemarginleft">110dp</dimen>
+    <dimen name="recyclerViewheight">150dp</dimen>
+    <dimen name="bottombarheight">90dp</dimen>
+    <dimen name="entrylayoutheight">170dp</dimen>
+    <dimen name="dummybuttonwidth">30dp</dimen>
+    <dimen name="entrylayoutmarginleft">10dp</dimen>
+    <dimen name="entrytextviewlayoutmargintop">20dp</dimen>
+    <dimen name="entrytextviewlayoutwidth">900dp</dimen>
+    <dimen name="dividermargin">20dp</dimen>
+    <dimen name="dividerHeight">5dp</dimen>
+    <dimen name="innerentrylayoutheight">160dp</dimen>
+    <dimen name="newentryimagemarginleft">10dp</dimen>
+    <dimen name="newentryimagemargintop">20dp</dimen>
+    <dimen name="newentryimagemarginright">30dp</dimen>
+    <dimen name="newentrytextmargintop">20dp</dimen>
+    <dimen name="newentryimagemargintleftick">30dp</dimen>
+    <dimen name="newentryimagemargintoptick">20dp</dimen>
+    <dimen name="edittextmargin">30dp</dimen>
+    <dimen name="readingpagetitlemargintop">15dp</dimen>
+    <dimen name="readingtextmargin">15dp</dimen>
+    <dimen name="googlebuttonmargintop">200dp</dimen>
+    <dimen name="googlebuttonmarginbuttom">30dp</dimen>
+    <dimen name="googlebuttonmarginleft">10dp</dimen>
+    <dimen name="googlebuttonmarginright">10dp</dimen>
+    <dimen name="googlebuttonheight">80dp</dimen>
+    <dimen name="googlebuttonpaddingleft">10dp</dimen>
+    <dimen name="progressbarmargintop">30dp</dimen>
+
+
+    <dimen name="loginpagetitletextsize">80dp</dimen>
+    <dimen name="loginpagetitlemargintop">150dp</dimen>
+    <dimen name="loginpagetitlemarginleft">40dp</dimen>
+    <dimen name="loginpagetitlemarginright">40dp</dimen>
+    <dimen name="loginpagetitleframemargin">20dp</dimen>
+    <dimen name="googlebuttontextsize">60dp</dimen>
+
+
+
+    <dimen name="journalEntrytitlesize">60sp</dimen>
+    <dimen name="journalentrytitletextviewheight">30dp</dimen>
+    <dimen name="datetextviewmargin">10dp</dimen>
+
+
+</resources>
